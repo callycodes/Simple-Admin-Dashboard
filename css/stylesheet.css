@@ -1,0 +1,270 @@
+/**
+ * @Author: Callum Bass
+ * @Date:   2020-03-15T17:01:40+00:00
+ * @Email:  w1682693@my.westminster.ac.uk
+ * @Project: 5COSC003W - Coursework 2
+ * @Last modified by:   Callum Bass
+ * @Last modified time: 2020-03-16T21:01:36+00:00
+ */
+
+
+/**
+White - #fff
+Light Blue - #3ba7c4
+Medium Blue - #1d77b8
+Dark Blue - #115478
+Grey - #d1d1d1
+**/
+
+body {
+  padding: 0;
+  margin: 0px;
+  overflow-x: hidden;
+  background-color: #e6e6e6;
+}
+
+.side-nav {
+
+  position: fixed;
+    width: 240px;
+    height: 100%;
+    top: 0px;
+    z-index: 20;
+    background: #fff;
+    -webkit-box-shadow: 1px 0px 20px rgba(0, 0, 0, 0.08);
+    box-shadow: 1px 0px 20px rgba(0, 0, 0, 0.08);
+}
+
+.side-nav ul li {
+  list-style: none;
+  padding-left: 0px;
+}
+
+
+
+.side-nav ul li a {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: 'Open Sans', sans-serif;
+  color: #607d8b;
+}
+
+.side-nav ul li a.active, .side-nav ul li a:hover {
+  color: #3399ff;
+}
+
+.nav-small-title {
+    font-size: 12px;
+    margin-bottom: 0px;
+    padding: 14px 14px 14px 20px;
+    color: #263238;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 20px;
+
+}
+
+.nav-item {
+
+    padding: 0px 35px 8px 15px;
+    display: block;
+
+}
+
+.nav-logo {
+  width: 100%;
+  height: 50px;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+.nav-logo img {
+  float: left;
+  width: 50px;
+  height: 50px;
+}
+
+.nav-logo p {
+  float: left;
+  font-weight: 800;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.side-nav ul > :last-child {
+  padding-bottom: 10px;
+  position: absolute;
+  bottom: 0;
+}
+
+
+
+
+
+#page-container {
+  background-color: #e6e6e6;
+  margin-left: 240px;
+  width: auto;
+  height: 100%;
+}
+
+.page-title {
+  background: #ffffff;
+    margin: 0 0px 30px;
+    padding: 15px 20px;
+    position: relative;
+    z-index: 10;
+    box-shadow: 1px 0 5px rgba(0, 0, 0, 0.1);
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color: #67757c;
+}
+
+.footer {
+    bottom: 0;
+    color: #67757c;
+    left: 240px;
+    padding: 10px 15px;
+    position: fixed;
+    right: 0;
+    border-top: 1px solid rgba(120, 130, 140, 0.13);
+    background: #ffffff;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+    text-align: right;
+}
+.card {
+margin: 10px;
+
+  position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+
+    border: 0px;
+    border-radius: 4px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.05);
+}
+
+.card-content {
+  padding: 5px 20px 20px 20px;
+}
+
+.card .card-content .title {
+  font-weight: 700;
+  font-family: 'Open Sans', sans-serif;
+  color: #67757c;
+  font-size: 15px;
+}
+
+.card .card-content .content {
+  margin-top: -10px;
+  margin-bottom: 0px;
+  font-weight: 500;
+  font-family: 'Open Sans', sans-serif;
+  color: #67757c;
+  font-size: 15px;
+}
+
+.content-container {
+  margin: 20px;
+  width: auto;
+  padding-bottom: 50px;
+  height: auto;
+}
+
+.w-25 {
+  width: 25%;
+  float: left;
+}
+
+.w-30 {
+  width: 33.33%;
+  float: left;
+}
+
+.w-50 {
+  width: 50%;
+  float: left;
+}
+
+.w-60 {
+  width: 66.66%;
+  float: left;
+}
+
+.w-75 {
+  width: 75%;
+  float: left;
+}
+
+.w-100 {
+  width: 100%;
+  float: left;
+}
+
+.f-title {
+  font-weight: 700;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 40px;
+  color: #67757c;
+}
+
+.centered-form {
+  width: 50%;
+  height: 50%;
+  margin: auto;
+  margin-top: 10%;
+  text-align: center;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.bordered-input {
+  box-sizing: border-box;
+  width: 100%;
+  border: 1px solid #67757c;
+  border-radius: 15px;
+
+  font-weight: 500;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 25px;
+color: #67757c;
+  padding: 5px;
+
+margin-bottom: 20px;
+}
+
+.input-label {
+  font-weight: 700;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  float: left;
+  padding: 5px;
+  color: #67757c;
+}
+
+.input-button {
+  margin-top: 20px;
+  width: 70%;
+  font-weight: 700;
+}
+
+.bordered-input:hover {
+  opacity: 0.5;
+  transition: 1s;
+}
